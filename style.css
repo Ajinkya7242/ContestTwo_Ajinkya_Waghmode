@@ -1,0 +1,137 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .navbar {
+    background-color: #333;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    height: 60px; /* Set a fixed height for the navbar */
+  }
+
+  .navbar-title {
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+  margin-left: 20px;
+  font-family: 'Montserrat', sans-serif;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center; /* Vertically center the items */
+  }
+  
+  .navbar li {
+    margin-right: 16px; /* Add some spacing between items */
+  }
+  
+  .navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    padding: 8px; /* Add padding to the links */
+  }
+  
+  .navbar a:hover {
+    color: #FFD700;
+    transform: scale(1.1);
+  }
+  
+  .content-section {
+    padding: 50px;
+  }
+  
+  .content-section h2 {
+    margin-top: 0;
+  }
+  
+  /* Smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    
+  }
+  th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
+  .nested-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  td {
+    padding-right: 20px; /* Add horizontal spacing */
+  }
+
+
+  .registration-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 120px;
+  }
+  
+  .registration-form h2 {
+    text-align: center;
+  }
+  
+  .registration-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .registration-form input[type="text"],
+  .registration-form input[type="email"],
+  .registration-form input[type="password"],
+  .registration-form input[type="number"] ,
+  .registration-form input[type="date"] 
+  {
+
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .registration-form button {
+    background-color: #007BFF;
+    width: 100%;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .registration-form button:hover {
+    
+    background-color: #505153;
+  }
